@@ -1,0 +1,30 @@
+{
+  "name": "words-typing-socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc && node dist/index.js",
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "random-words": "^2.0.0",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.11",
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.10",
+    "chai": "^4.3.10",
+    "jest": "^29.7.0",
+    "socket.io-client": "^4.7.2"
+  }
+}
