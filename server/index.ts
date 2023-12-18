@@ -19,3 +19,4 @@ io.on("connection", (socket: Socket) => {
 });
 
 io.listen(Number(process.env.PORT) || 3000);
+console.log(`Listening on port ${Number(process.env.PORT) || 3000}`);
